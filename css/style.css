@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Bold.ttf');
-    src: url('../fonts/OpenSans-Italic.ttf');
     src: url('../fonts/OpenSans-Regular.ttf');
     font-style: normal;
     font-display: swap;
@@ -22,6 +21,7 @@ a {
 }
 
 img {
+    display: inline-block;
     vertical-align: bottom;
 }
 
@@ -46,25 +46,93 @@ sup {
 }
 
 .head-shaddow {
-    height: 13px;
-    vertical-align: top;
     background-color: #f5f9fb;
-}
-
-.head-shaddow img {
+    vertical-align: top;
 }
 
 .user {
-    vertical-align: top;
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/hastag2.jpg');
     background-color: #f5f9fb;
-    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/background.jpg');
+    vertical-align: top;
 }
 
 .user h1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #333333;
     font-size: 30px;
     letter-spacing: 1px;
     line-height: 21px;
+    font-weight: 700;
+}
+
+.application,
+.user span {
+    width: 74%;
+    color: #748098;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.user h2 {
+    padding-top: 38px;
+    padding-bottom: 20px;
+    color: #169ab5;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 21px;
+}
+
+.user-info {
+    padding-left: 30px;
+    color: #333333;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.registration-errors {
+    padding-top: 16px;
+    padding-bottom: 18px;
+    color: #748098;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 21px;
+}
+
+.call {
+    background-color: #f5f9fb;
+}
+
+.top {
+    vertical-align: top;
+}
+
+.call h2 {
+    padding: 25px;  
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/call.jpg');  
+    background-color: #1599b5;
+    font-size: 24px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: #f6fafb;
+    font-weight: 700;
+}
+
+.start-soon h2 {
+    padding-top: 25px;
+    font-size: 30px;
+    letter-spacing: 1px;
     color: #333333;
     font-weight: 700;
-    padding-top: 35px;
+}
+
+.courses {
+    height: 73px;
+    width: 553px;
+    margin-top: 21px;
+    background-color: #eaeaea;
 }
