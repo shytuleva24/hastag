@@ -135,4 +135,23 @@ sup {
     width: 553px;
     margin-top: 21px;
     background-color: #eaeaea;
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/cources.jpg');
+}
+
+.courses h5 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+}
+
+.courses a {
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #169ab5;
+    font-weight: 600;
+}
+
+.logo-corse {
+    padding-left: 25px;
 }
