@@ -45,14 +45,19 @@ sup {
     background-color: #333333;
 }
 
-.head-shaddow img {
+.head-shaddow {
+    height: 13px;
     vertical-align: top;
+    background-color: #f5f9fb;
+}
+
+.head-shaddow img {
 }
 
 .user {
     vertical-align: top;
     background-color: #f5f9fb;
-    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/hastag.jpg');
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/background.jpg');
 }
 
 .user h1 {
