@@ -153,5 +153,18 @@ sup {
 }
 
 .logo-corse {
+    width: 17%;
     padding-left: 25px;
+}
+
+.course-name {
+    width: 55%;
+}
+
+.social .text {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #333333;
+    font-weight: 700;
 }
