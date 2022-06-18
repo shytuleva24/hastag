@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Italic.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+}
