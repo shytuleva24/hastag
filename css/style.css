@@ -168,3 +168,7 @@ sup {
     color: #333333;
     font-weight: 700;
 }
+
+.social a {
+    padding-right: 10px;
+}
