@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Italic.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+a {
+    display: inline-block;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+a {
+    text-decoration: none;
+}
+
+sup {
+    font-size: 0.65em;    
+}
+
+.main {
+    width: 100%;
+}
+
+.wrapper {
+    width: 600px;
+}
+
+.header img {
+    background-color: #333333;
+}
+
+.head-shaddow img {
+    vertical-align: top;
+}
+
+.user {
+    vertical-align: top;
+    background-color: #f5f9fb;
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/hastag.jpg');
+}
+
+.user h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 21px;
+    color: #333333;
+    font-weight: 700;
+    padding-top: 35px;
+}

@@ -1,13 +1,13 @@
-@font-face {
+/* @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Bold.ttf');
     src: url('../fonts/OpenSans-Italic.ttf');
     src: url('../fonts/OpenSans-Regular.ttf');
     font-style: normal;
     font-display: swap;
-}
+} */
 
-* {
+body {
     margin: 0;
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
@@ -22,4 +22,12 @@ img {
 
 a {
     text-decoration: none;
+}
+
+.main {
+    width: 600px;
+}
+
+.header img {
+    background-color: #333333;
 }
