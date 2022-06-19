@@ -51,7 +51,7 @@ sup {
 }
 
 .user {
-    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/hastag2.jpg');
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/hastag.jpg');
     background-color: #f5f9fb;
     vertical-align: top;
 }
@@ -66,13 +66,19 @@ sup {
     font-weight: 700;
 }
 
-.application,
-.user span {
+.application {
     width: 74%;
     color: #748098;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
+}
+
+.user span {
+    color: #748098;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px; 
 }
 
 .user h2 {
@@ -131,8 +137,7 @@ sup {
 }
 
 .courses {
-    height: 73px;
-    width: 553px;
+    width: 92%;
     margin-top: 21px;
     background-color: #eaeaea;
     background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/cources.jpg');
@@ -140,7 +145,8 @@ sup {
 
 .courses h5 {
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 22px;
     color: #333333;
     font-weight: 700;
 }
@@ -150,6 +156,8 @@ sup {
     letter-spacing: 1px;
     color: #169ab5;
     font-weight: 600;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-corse {
@@ -158,7 +166,7 @@ sup {
 }
 
 .course-name {
-    width: 55%;
+    width: 58%;
 }
 
 .social .text {
