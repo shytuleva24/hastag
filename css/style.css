@@ -141,7 +141,9 @@ sup {
     font-weight: 700;
 }
 
-.start-soon {
+.px {
+    background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/px.jpg');
+    background-repeat: repeat;
     background-color: #ffffff;
 }
 
