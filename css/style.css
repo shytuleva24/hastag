@@ -182,6 +182,7 @@ sup {
 
 .course-name p {
     width: 100%;
+    text-transform: uppercase;
 }
 
 
