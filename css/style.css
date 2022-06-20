@@ -9,24 +9,30 @@
 
 * {
     margin: 0;
+    padding: 0;
     font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
 table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+tr {
     border-collapse: collapse;
 }
 
 a {
     display: inline-block;
+    text-decoration: none;
 }
 
 img {
     display: inline-block;
     vertical-align: bottom;
-}
-
-a {
-    text-decoration: none;
 }
 
 sup {
@@ -61,47 +67,54 @@ sup {
     padding-bottom: 15px;
     color: #333333;
     font-size: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 2.3px;
     line-height: 21px;
     font-weight: 700;
 }
 
 .application {
-    width: 74%;
+    width: 80% !important;
     color: #748098;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
 }
 
-.user span {
-    color: #748098;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 27px; 
-}
 
 .user h2 {
-    padding-top: 38px;
+    padding-top: 32px;
     padding-bottom: 20px;
     color: #169ab5;
     font-size: 24px;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     line-height: 21px;
 }
 
 .user-info {
-    padding-left: 30px;
+    padding-left: 32px;
+}
+
+.user-info li,
+.user-info a {
+    color: #748098;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px; 
+    text-align: left;
+}
+
+.user-info b {
     color: #333333;
     text-align: left;
     font-size: 18px;
     font-weight: 700;
 }
 
+
 .registration-errors {
-    padding-top: 16px;
-    padding-bottom: 18px;
+    padding-top: 11px;
+    padding-bottom: 15px;
     color: #748098;
     font-family: "Arial", Helvetica, sans-serif;
     font-size: 14px;
@@ -128,22 +141,36 @@ sup {
     font-weight: 700;
 }
 
+.start-soon {
+    background-color: #ffffff;
+}
+
 .start-soon h2 {
-    padding-top: 25px;
+    padding-top: 17px;
     font-size: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 2.1px;    
     color: #333333;
     font-weight: 700;
 }
 
 .courses {
-    width: 92%;
-    margin-top: 21px;
+    width: 92% !important;
+    margin-top: 17.6px;    
     background-color: #eaeaea;
     background-image: url('https://raw.githubusercontent.com/shytuleva24/hastag/master/img/cources.jpg');
+    background-repeat: no-repeat;
 }
 
-.courses h5 {
+.courses .main {
+    width: 100% !important;
+}
+
+.courses td {
+    height: 72px;
+}
+
+.course-name {
+    width: 59%;    
     letter-spacing: 1px;
     font-size: 19px;
     line-height: 22px;
@@ -151,26 +178,28 @@ sup {
     font-weight: 700;
 }
 
-.courses a {
+.course-name p {
+    width: 100%;
+}
+
+
+.link-course a {
     font-size: 16px;
     letter-spacing: 1px;
     color: #169ab5;
     font-weight: 600;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* padding-top: 25px;
+    padding-bottom: 25px; */
 }
 
-.logo-corse {
-    width: 17%;
-    padding-left: 25px;
-}
 
-.course-name {
-    width: 58%;
+.social {
+    background-color: #ffffff;
 }
 
 .social .text {
-    padding-top: 40px;
+    padding-top: 22px; 
+    letter-spacing: 1px;   
     font-size: 24px;
     line-height: 45px;
     color: #333333;
@@ -179,9 +208,8 @@ sup {
 
 .social a {
     padding-top: 10px;
-    padding-right: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+
 }
 
-.footer a {
-    /* margin-top: -10px; */
-}
