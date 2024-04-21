@@ -1,4 +1,4 @@
-# HTML/CSS Email (real order for an online school)
+# HTML/CSS Email (order for an online school)
 
 This repository is a concise cheat sheet for quickly referencing HTML/CSS techniques to create email templates. It provides simple examples and snippets for both beginners and experienced developers.
 
